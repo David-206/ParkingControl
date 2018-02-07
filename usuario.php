@@ -61,7 +61,6 @@ public function eliminar($documentoUsuario){
 	$this->_db->close();
 }
 }
-
 public function modificar($nombreUsuario,$idCargo,$apellidoUsuario,$tipodoc,$documentoUsuario,$direccionUsuario,$telCel,$telFijo,$correo,$genero,$tipoVehiculo){
 
 	$sql="UPDATE usuario SET nombreUsuario=$nombreUsuario,idCargo=,$idCargo,apellidoUsuario=$apellidoUsuario,tipodoc=$tipodoc,documentoUsuario=$documentoUsuario,direccionUsuario=$direccionUsuario,telCel=$telCel,telFijo=$telFijo,correo=$correo,genero=$correo,tipoVehiculo=$tipoVehiculo WHERE documentoUsuario='".$documentoUsuario."'";
@@ -109,8 +108,6 @@ public function paginacion(){
   $this->_db->close();
 }
 
-
-
 public function suma(){
 
 $sql="SELECT sum(deuda) as suma from clientes";
@@ -137,6 +134,5 @@ $cant->close();
 $this->_db->close();	
 }
 }
-
 }
 ?>
