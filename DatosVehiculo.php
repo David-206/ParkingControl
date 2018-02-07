@@ -24,7 +24,6 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		
 		<!--Anteriormente contamos con la referencia del estilo que vamos a utilizar y el lenguaje-->
-
 	    </head>
 	    <body>
 		<div id="page-wrapper">
@@ -90,9 +89,7 @@
 						<div class="12u">
 						<input type="text" name="placa" required="required" placeholder="Placa" />
 						</div>
-							
 
-                        
                         <div class="6u 12u(mobilep)">
 						<input type="text" name="modelo" required="required" placeholder="Modelo" />
 						</div>
@@ -166,8 +163,6 @@
 				</div>
 				</section>
 
-			
-
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
@@ -182,7 +177,6 @@
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
-
 		</div>
 
 		<!-- Scripts -->
